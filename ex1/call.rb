@@ -1,4 +1,4 @@
-require './called'
+require_relative './called'
 
 class Call
 
@@ -16,9 +16,9 @@ end
 
 
 
-ins = Call.new
-opts = {
-  'id' => 100
-}
-result = ins.get(opts)
-puts result
+#ins = Call.new
+#opts = {
+#  'id' => 100
+#}
+#result = ins.get(opts)
+#puts result
