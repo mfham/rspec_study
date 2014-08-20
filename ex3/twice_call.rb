@@ -14,7 +14,7 @@ class Hoge
       b = get_data(key2, bind)
     end
 
-    a + b
+    10
   end
 
   def get_data(key, bind)
